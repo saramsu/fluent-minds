@@ -515,8 +515,21 @@ align-items: center;
  
   .logo {
     max-width: 300px;
+    margin-right: 5%;
         
   }
+
+  .welcome-text {
+    margin: 0 5%;
+  }
+  
+  /* Media query para ocultar el texto en dispositivos móviles */
+  @media (max-width: 768px) {
+    .welcome-text {
+      display: none; 
+    }
+  }
+
 
 @media (max-width: 850px) {
     .tm-contact-row {
